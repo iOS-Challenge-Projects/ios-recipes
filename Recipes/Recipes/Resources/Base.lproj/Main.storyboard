@@ -45,6 +45,9 @@
                         <viewLayoutGuide key="safeArea" id="AHe-ob-1nh"/>
                     </view>
                     <navigationItem key="navigationItem" id="N75-Kq-0Ig"/>
+                    <connections>
+                        <outlet property="searchField" destination="DzX-Y7-hnd" id="xoG-Xl-8kx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pt9-qE-72j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

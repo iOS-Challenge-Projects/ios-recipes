@@ -55,7 +55,7 @@ class RecipesTableViewController: UITableViewController {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
         
-        if segue.identifier == "ContainerTableViewSegue" {
+        if segue.identifier == "DetailsSegiue" {
             
             guard let detailVC = segue.destination as? RecipeDetailViewController else { return }
             
